@@ -1,3 +1,4 @@
+
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -31,6 +32,6 @@ public class Main {
             System.out.println(st.getUser().getName()+"--------"+st.getText());
         }
 
-
+System.out.println("Благодарю за помощь, мой Друг!");
     }
 }
